@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package main
 import "fmt"
 func testprint_num(){
@@ -7,7 +7,7 @@ func testprint_num(){
 }
 func main() {
     testprint_num()
-=======
+
 /*package main
 
 import "fmt"
