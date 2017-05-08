@@ -58,6 +58,7 @@ func main() {
 	//fmt.Print(test)
 	test.push("aaaaa")
 	test.push("bbbb")
+
 	fmt.Printf(test.pop())
 	fmt.Printf(test.pop())
 	fmt.Printf(test.pop())
