@@ -1,13 +1,12 @@
-
-package main
+/*package main
 import "fmt"
 func testprint_num(){
     b:=16
     fmt.Printf("b = %d",b)
-}
-func main() {
+}*/
+/*func main() {
     testprint_num()
-
+}*/
 /*package main
 
 import "fmt"
@@ -168,5 +167,5 @@ func main() {
 		fmt.Printf("Wins, losses staying at k =% 4d: %s\n",
 			k+1, ratioString(wins[k], games-wins[k]))
 	}
->>>>>>> 6cd3a9baea8a6572cdc4190193ab411a6fa7b13d
+
 }
