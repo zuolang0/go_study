@@ -22,8 +22,8 @@ func main() {
 	  http.ListenAndServe(":8080", nil)*/
 	//
 	// http.Handler() 的第二个参数是要实现了 Handler 接口的类型
-	// 可以通过类型强转来重新使用该函数来实现
-	//运行失败
+	// 可以通过HandlerFunc(不是HandleFunc)类型强转来重新使用该函数来实现
+	//
 	http.Handle("/boy/", http.HandlerFunc(boy))
 	http.Handle("/girl/", http.HandlerFunc(girl))
 	http.Handle("/", http.HandlerFunc(foo))
